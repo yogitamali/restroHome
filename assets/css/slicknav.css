@@ -52,6 +52,14 @@
     display: block; }
   .slicknav_nav li {
     display: block; }
+  .slicknav_nav li .button1{
+    display: block;
+    left: 0; 
+    text-align: left;
+    margin: 5px 5px 6px; }
+    .slicknav_nav li .button1:hover{
+    color: white;
+  background-color:  #ff5600;  }
   .slicknav_nav .slicknav_arrow {
     font-size: 0.8em;
     margin: 0 0 0 0.4em; }
@@ -210,6 +218,13 @@
     border-radius: 0;
     color: #ffffff;
 }
+
+.slicknav_nav a.button1:hover {
+    background: green none repeat scroll 0 0;
+    border-radius: 0;
+    color: #ffffff;
+}
+
 
 .slicknav_nav a {
     font-size: 14px;
